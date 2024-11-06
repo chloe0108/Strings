@@ -1,0 +1,35 @@
+# Strings
+# Unit 1 Challenges Strings 
+
+# Question 2 
+
+response_one = input ("What did you write? ")
+response_two = input ("Who did you send it to? ")
+
+print ("Yesterday I wrote a", response_one, ". I sent it to", response_two, "!" )
+
+# Question 7 
+x = "Hemingway"
+index_of_m = x.find('m')
+print(index_of_m)
+
+# Question 10
+w = "It was a bright cold day in April, and the clock struck 13."
+print(w[0:33])
+
+# Unit 1 Assignments
+# Question 22 
+word = input ("Please enter a single word to translate to Pig Latin ")
+w = word [1:] + word [0] + "ay"
+
+# Question 23 
+name = input ("Please enter a name ")
+line1 = name + ", " + name + ", " + "bo-b" + name [1:]
+line2 = "Banana-fana fo-f" + name[1:] 
+line3 = "Fee-fi-mo-m" + name [1:] 
+line4 = name + "!"
+print()
+print(line1)
+print(line2)
+print(line3)
+print(line4) 
